@@ -3,11 +3,11 @@ import numpy as np
 import cv2
 
 # user defined function
-from papago import my_papago, google_trans
-from my_easyocr import my_easy_ocr
-from check_korean import len_lang
-from voice_analysis import speaking_to_text, text_to_speaking
-from util import read_sentense, make_newline
+from lib.papago import my_papago, google_trans
+from lib.my_easyocr import my_easy_ocr
+from lib.check_korean import len_lang
+from lib.voice_analysis import speaking_to_text, text_to_speaking
+from lib.util import read_sentense, make_newline
 
 # 결과 출력 조작 변수
 flag = False
@@ -133,7 +133,7 @@ elif sidebar_radio == "음성 번역":
         voice_input = st.button("음 성 인 식")
     with col02:
         # 버튼을 클릭한 경우
-        st.write("#### :point_left: \t버튼을 누르고 번역을 원하는 문장을 말해보세요")
+        st.markdown("##### :point_left: \t버튼을 누르고 영어로 번역을 원하는 문장을 말해보세요")
     
     make_newline(3)
     
