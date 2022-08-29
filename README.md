@@ -4,7 +4,7 @@
 ---
 
 ## 실행 방법
-""" streamlit run main.py"""  
+``` streamlit run main.py``` 
 
 ## 서비스 설명
 streamlit을 활용한 세가지 버젼의 번역 사이트를 만들었습니다
