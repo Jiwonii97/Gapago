@@ -14,20 +14,20 @@ easyocr을 활용하여 이미지 파일을 업로드 하면 해당 이미지의
 > easyocr 깃허브 : https://github.com/JaidedAI/EasyOCR
 <br/>
 <br/>
-<br/>
-2. **텍스트 번역**
+<br/>  
+<h2> 2. 텍스트 번역 <h2/>
 <img src = "./asserts/example_translation2.PNG" width="60%" height="60%">
 PAPAGO API와 Googletrans API를 사용하여 한글을 입력하면 해당 텍스트에 대한 번역 결과를 출력해주는 번역 서비스 입니다.
 <br/>
 <br/>
 <br/>
-3. **음성 번역**
+<h2>3. 음성 번역<h2/>
 <img src = "./asserts/example_translation3.PNG" width="60%" height="60%">
 버튼을 누르고 번역을 원하는 음성을 말하면 해당 음성을 인식해 한글->영문으로 번역을 진행하고 해당 결과의 tts 서비스를 받을 수 있습니다. 
 <br/>
 <br/>
   
----
+===
   <br/>
 <h2>개발기간<h2/>
 2022/08/17 ~ 2022/08/30 (2주)
