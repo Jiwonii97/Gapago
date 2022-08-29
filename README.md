@@ -5,7 +5,7 @@
 
 ## 서비스 설명
 streamlit을 활용한 세가지 버젼의 번역 사이트를 만들었습니다
-
+  <br/>
 1. **이미지 번역**
 <img src = "./asserts/example_translation1.PNG" width="60%" height="60%">
 easyocr을 활용하여 이미지 파일을 업로드 하면 해당 이미지의 텍스트를 분석해 box가 추가된 이미지가 결과로 나오게 됩니다.  
@@ -29,5 +29,5 @@ PAPAGO API와 Googletrans API를 사용하여 한글을 입력하면 해당 텍�
   
 ---
   <br/>
-### 개발기간
+<h2>개발기간<h2/>
 2022/08/17 ~ 2022/08/30 (2주)
